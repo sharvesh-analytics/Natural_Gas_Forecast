@@ -11,6 +11,7 @@ The project utilizes a time-series dataset containing monthly snapshot prices of
 Downstream operators use storage as a buffer against supply chain disruptions. This tool helps financial analysts and clients estimate indicative pricing for longer-term storage contracts by predicting pricing trends.
 
 ### Key Features:
+
 * **Data Visualization:** Line plots to observe seasonal trends and price fluctuations.
 * **Intelligent Interpolation:** Uses `numpy.interp` to accurately estimate historical prices on any specific dates between 2020 and 2024.
 * **Machine Learning Extrapolation:** Implements a `LinearRegression` model from `scikit-learn` to forecast natural gas prices 1 year into the future (up to late 2025).
@@ -35,4 +36,4 @@ The dataset consists of a CSV file with two primary columns:
 
 ---
 ## AUTHOR*
-   SHARVESH PANDEY
+  SHARVESH PANDEY
